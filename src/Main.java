@@ -3,11 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 16987;
-        int x =20;
-      int bonus = amount/x;
-      System.out.println("Количество миль:" + bonus);
-
-
-
+        int bonus = 20;
+        int mile = amount / bonus;
+        System.out.println("Количество миль:" + mile);
     }
 }
